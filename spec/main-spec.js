@@ -19,4 +19,10 @@ describe('出租车计价测试', function () {
         let result=main(dis,time);
         expect(result).toEqual(10);
     });
+    it('dis大于八公里', function () {
+        let dis=10;
+        let time=5;
+        let result=main(dis,time);
+        expect(result).toEqual(14);
+    });
 });
