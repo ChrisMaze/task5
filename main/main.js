@@ -1,5 +1,5 @@
-module.exports = function main(dis,time) {
-    let result = 6;
+module.exports = function main(dis,time,delayTime) {
+    let result = 6+delayTime*0.25;
     let add2Dis = dis - 2;
     let add8Dis = dis - 8;
     /* console.log("Debug Info");*/
